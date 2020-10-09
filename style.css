@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+.imgs{
+width:70px;
+border-radius: 50%;
+box-sizing: border-box;
+border: 3px solid rgb(168, 168, 168);
+}
+.head-main-div{
+    margin-top: 8px;
+    margin-left: 9px;
+    display: flex;
+    position: relative;
+}
+.head-letter-div{
+   position: absolute;
+   left: 800px;
+   top: 10px;
+
+}
+.head-letter-div h1{
+  width: 250px;
+
+  /border: 2px solid black;
+}
+.link-div1{
+  /  border: 2px solid black;
+    position: absolute;
+    left: 1670px;
+    margin-top:10px;
+    
+}
+.link-div1 table a{
+    text-decoration: none;
+    margin-left: 10px;
+    border-right:2px solid black ;
+    padding-right:10px ;
+    font-size: 20px;
+    color: black;
+}
+
+
+.link-div1 table .phone{
+    border:none;
+}
+.link-div1 table a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.hr1{
+    border: 3px solid black;
+    border-bottom: none;
+    width: 1890px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.main-div{
+    box-shadow: 0px 0px 5px 0px;
+    width: 800px;
+    height:850px;
+    margin-left:500px;
+    margin-top: 5px;
+    position: relative;
+}
+.list-div{
+    box-shadow: 0px 0px 5px 0px;
+    position: absolute;
+    top:250px;
+    left:50px;
+    border: 1px solid black;
+    width:300px;
+    height: 200px;
+    overflow: auto;
+    border-radius: 10px;
+}
+.main-div p{
+    font-size: 30px;
+    position: absolute;
+    top:200px;
+    left: 40px;
+    text-shadow: 10px 5px 8px;
+    color: rgb(59, 122, 75);
+    
+}
+.list-div ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+}
+.list-div ul li a:hover{
+    color:blue;
+    font-weight: bold;
+}
+.map-div iframe{
+width: 400px;
+height: 300px;
+border-radius: 20px;
+}
+.map-div{
+    position: absolute;
+    top:520px;
+    left: 5px;
+}
+.last-div{
+    background-color: black;
+    margin-top: 9px;
+    width: 1903px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.last-div p{
+    color: blanchedalmond;
+}
